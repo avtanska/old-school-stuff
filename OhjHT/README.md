@@ -2,11 +2,11 @@
 Ohjelmoinnin harjoitustyö
 =========================
 
-*Ohjelma:* Game of Life
-*Projekti:* Ohjelmoinnin harjoitustyö
-*JDK versio:* 1.3.1
-*Copyright:* (C) Atte Tanskanen 2002
-*Julkaisu pvm:* 22.2.2002
+- Ohjelma: *Game of Life*
+- Projekti: *Ohjelmoinnin harjoitustyö*
+- JDK versio: *1.3.1*
+- Copyright: *(C) Atte Tanskanen 2002*
+- Julkaisu pvm: *22.2.2002*
 
 
 GAME OF LIFE
@@ -64,6 +64,4 @@ Alkuperäiset kooditiedostot:
 
 Readme.txt tiedosto:
 
-- readme.txt
-
-----------------------------------------------------------------------------  
+- README.md

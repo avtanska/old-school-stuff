@@ -1,0 +1,21 @@
+body { 
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 10pt;
+}
+
+table {
+  font-size: 10pt;
+  color: #000000 }
+}
+
+input { 
+  font-size: 8pt; 
+  font-family: Verdana, Arial, sans-serif;
+}
+
+hr { border: 1 }
+
+a { color: #880000 }
+a:link { color: #880000 }
+a:visited { color: #880000 }
+a:hover { color: #ff0000 }

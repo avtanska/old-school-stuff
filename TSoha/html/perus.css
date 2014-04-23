@@ -1,0 +1,44 @@
+body { 
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 10pt;
+}
+
+table {
+  font-size: 10pt;
+  color: #000000 }
+}
+
+input { 
+  font-size: 8pt; 
+  font-family: Verdana, Arial, sans-serif;
+}
+
+
+table.kalenteri { border: solid 0 black }
+
+table.ajat { border: 0; padding: 0 3 0 3 }
+
+th { background: #880000; color: #ffffff }
+td { background: #ffffff; color: #000000 }
+
+td.kalenteri { background: #eeeeee; color: #000000 }
+
+table.varaus { border: 0 }
+
+td.varaus { background: #ff8888; padding: 2px; }
+td.yritys { background: #8888cc; padding: 2px; border: }
+td.salainen { background: #666666; }
+
+p.varaus { font-size: 8pt }
+
+th.kale { background: #880000; color: #ffffff }
+td.kale { background: #eeeeee; color: #000000 }
+
+
+a:link { color: #880000 }
+a:visited { color: #880000 }
+a:hover { color: #ff0000 }
+
+.virhe { color: #ff0000; font-weight: bold }
+
+

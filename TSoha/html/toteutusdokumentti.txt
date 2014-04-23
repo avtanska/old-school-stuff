@@ -1,0 +1,29 @@
+
+Navi servletti
+
+Navi servletti generoi sivun vasemmassa laidassa olevan navigointipalkin. Navigointipalkin sisältö riippuu siitä, onko käyttäjä rekisteröitynyt järjestelmään vai ei. Sekä rekisteröityneen että tavallisen käyttäjän navigointipalkissa on valintalaatikot, joista voi valita katsottavaksi joko ryhmän tai yksittäisen henkilön kalenterit. Katso-napin painallus lähettää valintalaatikkojen tiedot parametreinä Kalenteri-servletille, joka hoitaa kalenterin näyttämisen.
+
+Rekisteröimätön käyttäjä näkee palkissa kentät käyttäjätunnukselle ja salasanalle, sekä Sisään-napin. Napin painallus lähettää tunnus- ja salasanakenttien sisällön parametreina Navi-servletille itselleen. Servletti tarkistaa löytyykö tietokannan salasana-taulusta yhtään parametrejä vastaavaa riviä. Jos rivejä ei löydy, annetaan virheilmoitus. Muussa tapauksessa Navi-servletti generoi käyttäjälle rekisteröityneen käyttäjän navigointipalkin. 
+
+Käyttäjän on mahdollista luoda käyttäjätunnus itselleen 'Luo tunnus'-linkin kautta. Linkin valitseminen vaihtaa oikeaan kehykseen luo_tunnus.htm sivun.
+
+Kun rekisteröitynyt käyttäjä kirjoittautuu sisään, tallennetaan käyttäjätunnus HttpSession-olioon. Näin se kulkee mukana kalenterin toimintoja käytettäessä. Kun käyttäjä valitsee 'Kirjaudu ulos'-linkin navigointipalkista, nollataan HttpSession-olion sessionTunnus-kenttä ja näytetään käyttäjälle rekisteröitymättömän käyttäjän navigointipalkki vasemmassa kehyksessä ja oikeaan kehykseen vaihdetaan tervetulotoivotus.
+
+
+
+LuoTunnus
+
+Servletti saa parametreinä halutun käyttäjätunnuksen, etunimen, sukunimen, sähköpostiosoitteen, puhelinnumeron, salasanan ja salasanan varmistuksen. Jos tunnus, nimet tai salasanat puuttuvat generoidaan käyttäjälle virheilmoitus. Jos tiedot on täytetty oikein, tarkistetaan löytyykö tietokannan henkilö-taulusta ennestään riviä yritetyllä käyttäjätunnuksella. Jos yhtään riviä ei löydy, generoidaan 'Kiitos tunnuksen luonnista'-sivu
+
+
+OmatTiedot
+
+Servletti näyttää käyttäjälle hänen henkilötietonsa tekstikentissä ja antaa mahdollisuuden muuttaa niitä. Käyttäjän on mahdollista muuttaa tietoja suoraan tekstikenttiin. 'Tallenna tiedot'-nappi lähettää kenttien tiedot parametreinä servletille itselleen, joka huomaa submit-parametrin saaneen arvon. Näin ollen servletti päivittää UPDATE-lauseella henkilön tiedot tietokantaan ja antaa generoi kiitossivun.
+
+
+
+Kalenteri
+
+
+
+

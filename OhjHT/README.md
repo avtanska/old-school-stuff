@@ -62,6 +62,22 @@ Alkuperäiset kooditiedostot:
 - TietojaDialogi.java
 - SoluRuudukko.java
 
+Dokumentaatio:
+
+- Maarittely.doc
+- tekninen.doc
+- Kayttoohje.doc
+
+Koodit PDF:nä:
+
+- 1.pdf
+- 2.pdf
+- 3.pdf
+- 4.pdf
+- 5.pdf
+- 6.pdf
+- 7.pdf
+
 Readme.txt tiedosto:
 
 - README.md

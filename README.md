@@ -12,3 +12,7 @@ Projects
 ### OhjHT
 
 Ohjelmoinnin harjoitustyö, a simple graphical Game Of Life representation developed with Java and Swing. 
+
+### TiRaHT
+
+Tietorakenteiden harjoitustyö, implementation of a basic HTTP cache simulatio simulation with Java. 

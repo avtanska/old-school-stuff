@@ -15,7 +15,7 @@ Ohjelmoinnin harjoitustyö, a simple graphical Game Of Life representation devel
 
 ### TiRaHT
 
-Tietorakenteiden harjoitustyö, implementation of a basic HTTP cache simulatio simulation with Java. 
+Tietorakenteiden harjoitustyö, implementation of a basic HTTP cache simulation with Java. 
 
 ### TSoha
 
